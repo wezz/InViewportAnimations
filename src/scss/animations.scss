@@ -1,0 +1,75 @@
+
+
+
+
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+@keyframes tilt {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	20% {
+		transform: rotate(6deg);
+	}
+	40% {
+		transform: rotate(-6deg);
+	}
+	60% {
+		transform: rotate(4deg);
+	}
+	80% {
+		transform: rotate(-2deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+
+}
+
+@keyframes radial-pulse {
+0% {
+	box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+100% {
+	box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+}
+}
+
+
+@keyframes radial-pulse-white {
+	0% {
+		box-shadow: 0 0 0 0px rgba(255, 255, 255, 255.5);
+	}
+	
+	100% {
+		box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+	}
+}
+
+@keyframes radial-pulse-color {
+0% {
+	box-shadow: 0 0 0 0px rgba(#ff0000 , 0.5);
+}
+
+100% {
+	box-shadow: 0 0 0 20px rgba(#00ff00 , 0);
+}
+}
